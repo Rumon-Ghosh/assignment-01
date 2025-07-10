@@ -19,6 +19,10 @@
   padding: 0;
 }
 
+section {
+  margin-bottom: 200px;
+}
+
 /* shared styles */
 
 .primary-color {
@@ -38,11 +42,12 @@
 
 /* banner section */
 
-.banner {
+header {
   background-image: url('../Assets/Hero-bg.png');
+  margin-bottom: 200px;
 }
 
-header {
+.banner {
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
@@ -67,4 +72,176 @@ nav h3 {
   font-weight: bold;
   color: #252432;
   margin-bottom: 37px;
+}
+
+/* action section */
+
+.action {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.action-content h3{
+  font-size: 42px;
+  font-weight: 800;
+  color: #252432;
+  margin-bottom: 23px;
+}
+
+.action-content p {
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(37, 36, 50, 0.5);
+  margin-bottom: 23px;
+}
+
+.action img {
+  border-radius: 48px;
+}
+
+/* pductive-user section */
+
+.productive {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(77, 71, 255, 0.10);
+  padding: 50px 80px;
+  border-radius: 24px;
+  box-sizing: border-box;
+}
+
+.productive h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 40px;
+}
+
+.productive-info {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 158px;
+}
+
+.productive-column h4 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.productive-column small {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* review section */
+
+.review-section {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.review-section h3 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: bold;
+  color: #252432;
+  margin-bottom: 50px;
+}
+
+.reviews {
+  display: flex;
+  gap: 24px;
+}
+
+.review-card {
+  padding: 24px;
+  border-radius: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #F2EDED;
+}
+
+.review-card img {
+  margin-bottom: 24px;
+}
+
+.review-card h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #1E1E1E;
+  margin-bottom: 8px;
+}
+
+.review-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #1E1E1E;
+  margin-bottom: 24px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 5px;
+}
+
+.reviewer span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #B3B3B3;
+}
+
+/* get-stared section */
+
+.focus-better {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 71px 150px;
+  background: #f2eded;
+  box-sizing: border-box;
+  border-radius: 14px;
+}
+
+
+.focus-better h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.focus-better p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.focus-better div {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.focus-better img {
+  width: 840px;
+  border-radius: 48px;
 }
