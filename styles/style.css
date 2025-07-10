@@ -40,6 +40,11 @@ section {
   cursor: pointer;
 }
 
+.primary-btn:hover {
+  background-color: rgb(200, 200, 32);
+  color: black;
+}
+
 /* banner section */
 
 header {
