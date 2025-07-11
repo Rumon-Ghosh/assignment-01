@@ -42,11 +42,13 @@ section {
   border: none;
   padding: 12px 36px;
   cursor: pointer;
+  transition: all 0.5s linear;
 }
 
 .primary-btn:hover {
   background-color: rgb(200, 200, 32);
   color: black;
+  transform: scale(1.1);
 }
 
 /* banner section */
